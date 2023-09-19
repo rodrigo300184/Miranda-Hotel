@@ -1,0 +1,35 @@
+.rooms-subtitle {
+  text-align: center;
+  margin-top: 60px;
+  color: $grey;
+  margin-bottom: 24px;
+}
+
+.rooms-title {
+  text-align: center;
+}
+
+.amenities-bar {
+  position: relative;
+  display: flex;
+  margin: 24px auto 0;
+  justify-content: space-around;
+  align-items: center;
+  width: 256px;
+  min-height: 40px;
+  background: $white;
+  box-shadow: 0px 8px 16px 0px rgba(138, 138, 138, 0.05);
+  z-index: 2;
+}
+.amenities-icon {
+  width: 16px;
+  height: 16px;
+}
+.swiper {
+    top:-20px;
+    width: 375px;
+    height: 244px;
+  }
+
+  
+

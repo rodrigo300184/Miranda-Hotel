@@ -1,0 +1,141 @@
+.about {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.about_section-1 {
+  padding: 0 20px 175px 20px;
+  margin-top: 60px;
+  background-color: $about-section-1-background-color;
+}
+
+.about-us-subtitle {
+  padding-top: 38px;
+  margin-bottom: 32px;
+  color: $grey;
+}
+
+.about-us-paragraph {
+  margin-top: 16px;
+  color: $grey;
+  font-family: $archivo-font;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.about_btn--gold {
+  margin-top: 24px;
+  background-color: $gold;
+}
+
+.about_section-2 {
+  display: flex;
+  flex-direction: column;
+  background: $white;
+  box-shadow: 0px 8px 16px 0px rgba(34, 34, 34, 0.02);
+  width: 270px;
+  max-height: 485px;
+  margin: 0 auto;
+}
+.about_img-team {
+  position: relative;
+  margin: 0 auto;
+  object-fit: cover;
+  top: -115px;
+  width: 270px;
+  height: 300px;
+}
+.about_icon-team-front {
+  position: relative;
+  top: -65px;
+  margin: 0 auto;
+  background-image: url("../icons/about/team-front.svg");
+  width: 68px;
+  height: 50px;
+  z-index: 1;
+}
+.about_icon-team-background {
+  position: relative;
+  top: -119px;
+  left: 126px;
+  background-image: url("../icons/about/team-background.svg");
+  width: 144px;
+  height: 106px;
+  z-index: 0;
+}
+
+.about-us-third-subtitle {
+  position: relative;
+  top: -142.5px;
+  text-align: center;
+}
+
+.about-us-second-paragraph {
+  position: relative;
+  top: -120.5px;
+  color: $black;
+  text-align: center;
+  font-family: $roboto-font;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 0 35px;
+}
+
+.about_section-3 {
+  position: relative;
+  top: 45px;
+  display: flex;
+  flex-flow: column nowrap;
+  background: $about-section-3-background-color;
+  box-shadow: 0px 8px 16px 0px rgba(34, 34, 34, 0.02);
+  width: 270px;
+  max-height: 600px;
+  margin: 0 auto 43px;
+}
+
+.about_img-room {
+  position: relative;
+  margin: 0 auto;
+  object-fit: cover;
+  top: 0px;
+  width: 270px;
+  height: 300px;
+}
+.about_icon-calendario {
+  position: relative;
+  top: 0px;
+  margin: 54px auto 29.5px;
+  background-image: url("../icons/about/calendar-about.svg");
+  width: 57px;
+  height: 50px;
+  z-index: 1;
+}
+.about-us-third-subtitle-2 {
+  position: relative;
+  text-align: center;
+  color: $white;
+}
+.about-us-third-paragraph {
+  position: relative;
+  color:$white;
+  text-align: center;
+  font-family: $roboto-font;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 0 35px;
+  margin: 21px 0 38px 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .about {
+    flex-flow: row-reverse nowrap;
+  }
+  .about_section-2 {
+    flex-flow: row-reverse nowrap;
+  }
+}

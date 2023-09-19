@@ -1,0 +1,29 @@
+.banner {
+  position: relative;
+  top: 70px;
+  padding-left: 20px;
+  padding-bottom: 76px;
+  background-color: $banner-background-color;
+}
+
+.banner-subtitle {
+  padding: 75px 118px 40px 0px;
+}
+.banner-main-title {
+  padding: 0px 41px 40px 0px;
+}
+
+.banner_button-container {
+  display: flex;
+  flex-flow: column;
+  gap: 24px;
+}
+
+.banner_btn--gold{
+    background-color: $gold;
+
+}
+
+.banner_btn--black{
+    border: 2px solid rgba(255, 255, 255, 0.33);
+}

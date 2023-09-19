@@ -1,0 +1,49 @@
+.availability {
+  margin-top: 70px;
+  padding: 36px 20px;
+  background: $black;
+}
+
+.availability_form {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.availability_item {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 23px;
+  margin-bottom: 30px;
+}
+
+.availability_btn--gold {
+  background-color: $gold;
+}
+
+.calendar-icon {
+  position: absolute;
+  width: 16px;
+}
+
+.label-text {
+  @include label-text;
+}
+
+.availability_input {
+  @include avalaibility_input-text;
+  position: relative;
+  width: 100%;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  background-color: transparent;
+  top: 0px;
+  left: 0px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid $gold;
+}
+
+

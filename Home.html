@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Miranda</title>
+    <link rel="stylesheet" href="./resources/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Old+Standard+TT&family=Roboto&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./resources/js/script.js" defer></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="header_left">
+        <div class="header_menu" id="header_menu"></div>
+        <a href="/" class="header_letterhead">
+          <div class="header_hotel-logo"></div>
+          <div class="header_hotel-name"></div>
+        </a>
+      </div>
+      <div class="header_right">
+        <div class="header_member-icon"></div>
+        <div class="header_magnifier-icon"></div>
+      </div>
+
+      <ul id="navbar" class="navbar">
+        <li class="navbar_li">
+          <a class="navbar_a" href="#about-us">About Us</a>
+        </li>
+        <li class="navbar_li"><a class="navbar_a" href="#rooms">Rooms</a></li>
+        <li class="navbar_li">
+          <a class="navbar_a" href="#offers">Offers</a>
+        </li>
+        <li class="navbar_li">
+          <a class="navbar_a" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </header>
+    <section class="banner">
+      <h2 class="banner-subtitle subtitle">THE ULTIMATE LUXURY EXPERIENCE</h2>
+      <h1 class="banner-main-title main-title main-title-white">The Perfect Base For You</h1>
+      <div class="banner_button-container">
+        <a href="/rooms.html" class="small_button banner_btn--gold"
+          ><div class="button-text">TAKE A TOUR</div></a
+        >
+        <a href="/about.html" class="small_button banner_btn--black"
+          ><div class="button-text">LEARN MORE</div></a
+        >
+      </div>
+    </section>
+    <section class="availability">
+      <form action="" class="availability_form">
+        <div class="availability_item">
+          <label class="label-text" for="arrivalDate">Arrival Date</label>
+          <img
+            src="./resources/icons/availability/calendar.svg"
+            class="calendar-icon"
+            alt="calendar-icon"
+          />
+          <input class="availability_input" id="arrivalDate" type="date" />
+        </div>
+        <div class="availability_item">
+          <label class="label-text" for="departureDate">Departure Date</label>
+          <img
+            src="./resources/icons/availability/calendar.svg"
+            class="calendar-icon"
+            alt="calendar-icon"
+          />
+          <input class="availability_input" id="departureDate" type="date" />
+        </div>
+        <a href="/rooms.html" class="big_button availability_btn--gold"
+          ><div class="button-text">CHECK AVAILABILITY</div></a
+        >
+      </form>
+    </section>
+    <section class="about">
+      <div class="about_section-1">
+        <h2 class="subtitle about-us-subtitle">About Us</h2>
+        <h1 class="main-title main-title-black">
+          Discover Our Underground.
+        </h1>
+        <p class="about-us-paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <a href="/rooms.html" class="small_button about_btn--gold"
+          ><div class="button-text">BOOK NOW</div></a
+        >
+      </div>
+      <div class="about_section-2">
+        <div class="about_section-2_image">
+          <img
+            class="about_img-team"
+            src="./resources/assets/about-us/team.jpg"
+            alt=""
+          />
+        </div>
+        <div class="about_section-2_content">
+          <div class="about_icon-team-front"></div>
+          <div class="about_icon-team-background"></div>
+          <h4 class="third-subtitle about-us-third-subtitle">Strong Team</h4>
+          <p class="about-us-second-paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor.
+          </p>
+        </div>
+      </div>
+      <div class="about_section-3">
+        <div class="about_section-3_image">
+          <img
+            class="about_img-room"
+            src="./resources/assets/about-us/luxury.jpg"
+            alt=""
+          />
+        </div>
+        <div class="about_section-3_content">
+          <div class="about_icon-calendario"></div>
+          <h4 class="third-subtitle about-us-third-subtitle-2">Luxury Room</h4>
+          <p class="about-us-third-paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="rooms">
+        <h2 class="subtitle rooms-subtitle">ROOMS</h2>
+        <h1 class="main-title main-title-black rooms-title">Hand Picked Rooms</h1>
+        <div class="amenities-bar">
+            <img src="./resources/icons/rooms/bed.svg" alt="bedIcon" class="amenities-icon">
+            <img src="./resources/icons/rooms/wifi.svg" alt="wifiIcon" class="amenities-icon">
+            <img src="./resources/icons/rooms/automobile.svg" alt="carIcon" class="amenities-icon">
+            <img src="./resources/icons/rooms/air-conditioner.svg" alt="acIcon" class="amenities-icon">
+            <img src="./resources/icons/rooms/gym.svg" alt="gymIcon" class="amenities-icons">
+            <img src="./resources/icons/rooms/no-smoking.svg" alt="nonsmokeIcon" class="amenities-icon">
+            <img src="./resources/icons/rooms/cocktails.svg" alt="barIcon" class="amenities-icon">
+          </div>
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="./resources/assets/rooms/room1.jpg" alt="room"></div>
+              <div class="swiper-slide"><img src="./resources/assets/rooms/room2.jpg" alt="room"></div>
+              <div class="swiper-slide"><img src="./resources/assets/rooms/room3.jpg" alt="room"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination pagination-swiper"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-btn-prev"></div>
+            <div class="swiper-btn-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+          <div class="">
+            <h4 class="">Minimal Duplex Room</h4>
+            <p class="">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor.
+            </p>
+            <div class="">
+              <span class=""> $345</span>
+              <span class="">/Night</span>
+            </div>
+          </div>
+    </section>
+    <h1 style="position: relative; top: 150px">Texto de prueba</h1>
+  </body>
+</html>
