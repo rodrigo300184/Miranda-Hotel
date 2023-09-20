@@ -31,31 +31,4 @@ if (window.innerWidth < 1000) {
     .addEventListener("click", () => setTimeout(dropdown_menu_adjust, 300));
 }
 
-/*----------Slider----------*/
 
-const swiper = new Swiper(".swiper", {
-  // Optional parameters
-  direction: "horizontal",
-  autoplay: {
-    delay: 5000,
-  },
-  loop: true,
-  speed: 400,
-  spaceBetween: 100,
-
-  // If we need pagination
-  pagination: {
-    el: ".swiper-pagination",
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: ".swiper-btn-next",
-    prevEl: ".swiper-btn-prev",
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
-  },
-});

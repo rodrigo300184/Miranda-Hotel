@@ -10,6 +10,12 @@
   height: 244px;
 }
 
+.feature-swiper {
+  width: 100%;
+  max-width: 375px;
+  height: 244px;
+}
+
 .pagination-swiper {
   display: none;
 }
@@ -498,6 +504,11 @@ header {
   margin: 21px 0 38px 0;
 }
 
+@media only screen and (max-width: 360px) {
+  .about-us-title {
+    font-size: 50px;
+  }
+}
 @media only screen and (min-width: 600px) {
   .about {
     flex-flow: row-reverse nowrap;
@@ -583,6 +594,57 @@ header {
 }
 .room-price-nigth {
   font-size: 13px;
+}
+
+.video-section {
+  background-color: #111111;
+  padding: 64px 20px 48px 20px;
+}
+
+.video-section-subtitle {
+  color: #bead8e;
+}
+
+.video-section-title {
+  margin: 32px 0 16px 0;
+}
+
+.video-section-description {
+  color: #c2c2c2;
+  font-family: Archivo, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+
+.video-container {
+  margin: 0 auto;
+  width: 335px;
+  height: 270px;
+  overflow: hidden;
+}
+
+.video_book-btn {
+  margin-top: 36px;
+  background-color: #bead8e;
+}
+
+@media only screen and (max-width: 360px) {
+  .video-container {
+    width: 280px;
+    height: 180px;
+  }
+}
+.facilities {
+  padding: 60px 24px;
+}
+
+.facilities-subtitle {
+  text-align: center;
+  color: #777777;
+  margin-bottom: 24px;
 }
 
 /*# sourceMappingURL=styles.css.map */

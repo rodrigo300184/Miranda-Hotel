@@ -4,7 +4,11 @@
   max-width: 375px;
   height: 244px;
 }
-
+.feature-swiper {
+  width: 100%;
+  max-width: 375px;
+  height: 244px;
+}
 
 .pagination-swiper{
     display: none;
@@ -43,3 +47,4 @@
     background-image: url("../icons/swiper/arrow_rigth.svg");
     z-index: 1;
   }
+
