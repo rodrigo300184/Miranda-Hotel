@@ -4,19 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotel Miranda</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="./resources/css/styles.css" />
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Old+Standard+TT&family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <!-- Flickity -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- Swiper -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- Scripts -->
     <script src="./resources/js/script.js" defer></script>
   </head>
   <body>
@@ -246,7 +255,54 @@
     <section class="facilities">
       <h2 class="subtitle facilities-subtitle">FACILITIES</h2>
       <h1 class="main-title main-title-black">Core Features</h1>
-     
+      <div class="carousel">
+        <div class="carousel-cell feature">
+          <div class="feature_icon feature_icon--one"></div>
+          <span class="feature_number">01</span>
+          <h4 class="third-subtitle feature_title">Have high rating</h4>
+          <p class="feature_p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna..
+          </p>
+        </div>
+        <div class="carousel-cell feature">
+          <div class="feature_icon feature_icon--two"></div>
+          <span class="feature_number">02</span>
+          <h4 class="third-subtitle feature_title">Quiet Hours</h4>
+          <p class="feature_p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna..
+          </p>
+        </div>
+        <div class="carousel-cell feature"><div class="feature_icon feature_icon--three"></div>
+        <span class="feature_number">03</span>
+        <h4 class="third-subtitle feature_title">Best Locations</h4>
+        <p class="feature_p">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna..
+        </p></div>
+        <div class="carousel-cell feature"><div class="feature_icon feature_icon--four"></div>
+        <span class="feature_number">04</span>
+        <h4 class="third-subtitle feature_title">Free Cancellation</h4>
+        <p class="feature_p">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna..
+        </p></div>
+        <div class="carousel-cell feature"><div class="feature_icon feature_icon--five"></div>
+        <span class="feature_number">05</span>
+        <h4 class="third-subtitle feature_title">Payment Options</h4>
+        <p class="feature_p">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna..
+        </p></div>
+        <div class="carousel-cell feature"><div class="feature_icon feature_icon--six"></div>
+        <span class="feature_number">06</span>
+        <h4 class="third-subtitle feature_title">Special Offers</h4>
+        <p class="feature_p">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna..
+        </p></div>
+      </div>
     </section>
     <script src="./resources/js/swiper.js" type="module"></script>
   </body>

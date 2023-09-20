@@ -11,27 +11,27 @@ const roomsSwiper = new Swiper(".rooms-swiper", {
   },
 });
 
-const featureSwiper = new Swiper('.features-swiper', {
+const featureSwiper = new Swiper(".features-swiper", {
   // Optional parameters
-  direction: 'horizontal',
+  direction: "horizontal",
   loop: true,
 
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination',
+    el: ".swiper-pagination",
     type: "bullets",
-    clickable: true
+    clickable: true,
   },
 
   // Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 
   // And if we need scrollbar
   scrollbar: {
-    el: '.swiper-scrollbar',
+    el: ".swiper-scrollbar",
   },
 });
 

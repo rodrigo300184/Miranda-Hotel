@@ -1,5 +1,5 @@
 .swiper {
-  top:-20px;
+  top: -20px;
   width: 100%;
   max-width: 375px;
   height: 244px;
@@ -10,41 +10,64 @@
   height: 244px;
 }
 
-.pagination-swiper{
-    display: none;
-    &--active{
-    display: block;}
+.pagination-swiper {
+  display: none;
+  &--active {
+    display: block;
   }
-  
-  .swiper-slide img {
-    width: 100%; /* Imágenes se ajustan al ancho del contenedor */
-    height: 100%; /* Imágenes se ajustan a la altura del contenedor */
-  }
-  
+}
 
-  .swiper-btn-prev{
-    position: absolute;
-    top:106px;
-    margin-left: 15px;
-    width: 32px;
-    height: 32px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: $white;
-    background-image: url("../icons/swiper/arrow_left\ .svg");
-    z-index: 1;
-  }
-  .swiper-btn-next{
-    position: absolute;
-    top:106px;
-    right: 0px;
-    margin-right: 15px;
-    width: 32px;
-    height: 32px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: $gold;
-    background-image: url("../icons/swiper/arrow_rigth.svg");
-    z-index: 1;
-  }
+.swiper-slide img {
+  width: 100%; /* Imágenes se ajustan al ancho del contenedor */
+  height: 100%; /* Imágenes se ajustan a la altura del contenedor */
+}
 
+.swiper-btn-prev {
+  position: absolute;
+  top: 106px;
+  margin-left: 15px;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: $white;
+  background-image: url("../icons/swiper/arrow_left\ .svg");
+  z-index: 1;
+}
+.swiper-btn-next {
+  position: absolute;
+  top: 106px;
+  right: 0px;
+  margin-right: 15px;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: $gold;
+  background-image: url("../icons/swiper/arrow_rigth.svg");
+  z-index: 1;
+}
+
+.carousel-cell {
+  width: 100%;
+  margin-top: 32px;
+}
+.flickity-button {
+  display: none;
+  background: transparent;
+}
+/* position dots in carousel */
+.flickity-page-dots {
+  bottom: 0px !important;
+}
+/* white circles */
+.flickity-page-dots .dot {
+  width: 7px !important;
+  height: 7px !important;
+  opacity: 1;
+  background: transparent;
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: $gold;
+}

@@ -55,6 +55,34 @@
   z-index: 1;
 }
 
+.carousel-cell {
+  width: 100%;
+  margin-top: 32px;
+}
+
+.flickity-button {
+  display: none;
+  background: transparent;
+}
+
+/* position dots in carousel */
+.flickity-page-dots {
+  bottom: 0px !important;
+}
+
+/* white circles */
+.flickity-page-dots .dot {
+  width: 7px !important;
+  height: 7px !important;
+  opacity: 1;
+  background: transparent;
+}
+
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: #bead8e;
+}
+
 html,
 * {
   text-decoration: none;
@@ -645,6 +673,72 @@ header {
   text-align: center;
   color: #777777;
   margin-bottom: 24px;
+}
+
+.feature {
+  height: 360px;
+  width: 100%;
+  text-align: start;
+  padding: 81px 38px;
+  position: relative;
+  padding-bottom: 0px;
+}
+.feature_icon {
+  width: 70px;
+  height: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 38px;
+  position: relative;
+}
+.feature_icon--one {
+  background-image: url("../icons/features/have-high-rating.svg");
+}
+.feature_icon--two {
+  background-image: url("../icons/features/quiet-hours.svg");
+}
+.feature_icon--three {
+  background-image: url("../icons/features/best-locations.svg");
+}
+.feature_icon--four {
+  background-image: url("../icons/features/free-cancelation.svg");
+}
+.feature_icon--five {
+  background-image: url("../icons/features/payment-options.svg");
+}
+.feature_icon--six {
+  background-image: url("../icons/features/special-offers.svg");
+}
+.feature_number {
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 130px;
+  color: rgba(34, 34, 34, 0.04);
+  font-family: Archivo, sans-serif;
+  position: absolute;
+  right: 32px;
+  top: 0;
+}
+.feature_title {
+  margin-bottom: 28px;
+}
+.feature_p {
+  font-family: Archivo, sans-serif;
+  color: #777777;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media only screen and (max-width: 360px) {
+  .feature_title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .feature_number {
+    font-size: 110px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
