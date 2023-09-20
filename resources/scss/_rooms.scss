@@ -25,11 +25,53 @@
   width: 16px;
   height: 16px;
 }
-.swiper {
-    top:-20px;
-    width: 375px;
-    height: 244px;
+
+.room-container {
+  position: relative;
+  top: -40px;
+  padding: 20px;
+  z-index: 2;
+  background: $white;
+  width: 300px;
+  max-height: 215px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.room-name {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.room-subtitle {
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -1.2px;
+}
+.room-description {
+  color: $grey;
+  font-family: $archivo-font;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.room-price {
+  color: $gold;
+  text-align: center;
+  font-family: $archivo-font;
+  
+  font-style: normal;
+  font-weight: 700;
+  line-height: 43px;
+  &-value{
+    font-size: 32px;
   }
 
-  
-
+  &-nigth {
+    font-size: 13px;
+  }
+}
