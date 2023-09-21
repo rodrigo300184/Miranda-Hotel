@@ -11,39 +11,22 @@ const roomsSwiper = new Swiper(".rooms-swiper", {
   },
 });
 
-const featureSwiper = new Swiper(".features-swiper", {
-  // Optional parameters
-  direction: "horizontal",
-  loop: true,
-
-  // If we need pagination
-  pagination: {
-    el: ".swiper-pagination",
-    type: "bullets",
-    clickable: true,
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
-  },
+var flkty = new Flickity('.carousel', {
+  autoPlay: true
 });
 
-const foodSwiper = new Swiper(".food-swiper", {
+const menuSwiper = new Swiper(".menu-swiper", {
   spaceBetween: 20,
   grid: {
     fill: "row",
     rows: 3,
   },
   navigation: {
-    nextEl: ".food-swiper__button--next",
-    prevEl: ".food-swiper__button--prev",
+    nextEl: ".menu-swiper-btn-next",
+    prevEl: ".menu-swiper-btn-prev",
+  },
+  autoplay: {
+    delay: 5000,
   },
 });
 

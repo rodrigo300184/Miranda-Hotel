@@ -51,6 +51,10 @@
 .carousel-cell {
   width: 100%;
   margin-top: 32px;
+  counter-increment: gallery-cell;
+}
+.carousel-cell:before {
+  counter-increment: gallery-cell;
 }
 .flickity-button {
   display: none;
@@ -70,4 +74,30 @@
 /* fill-in selected dot */
 .flickity-page-dots .dot.is-selected {
   background: $gold;
+}
+
+.menu-swiper-btn-prev {
+  position: absolute;
+  bottom: -46px;
+  right: 66px;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color:#F8F8F8;
+  background-image: url("../icons/swiper/arrow_left\ .svg");
+  z-index: 1;
+}
+.menu-swiper-btn-next {
+  position: absolute;
+  bottom: -46px;
+  right: 0px;
+  margin-right: 15px;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: $gold;
+  background-image: url("../icons/swiper/arrow_rigth.svg");
+  z-index: 1;
 }

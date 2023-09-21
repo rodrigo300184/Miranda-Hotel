@@ -31,4 +31,4 @@ if (window.innerWidth < 1000) {
     .addEventListener("click", () => setTimeout(dropdown_menu_adjust, 300));
 }
 
-var flkty = new Flickity('.carousel');
+
