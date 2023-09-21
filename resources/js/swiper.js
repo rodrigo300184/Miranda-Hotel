@@ -33,16 +33,16 @@ const menuSwiper = new Swiper(".menu-swiper", {
 const foodImageSwiper = new Swiper(".food-images-swiper", {
   // Optional parameters
   direction: "horizontal",
-  slidesPerView: "auto",
+  slidesPerView: 1,
   centeredSlides: true,
-  spaceBetween: 16,
+  spaceBetween: 25,
   loop: true,
   autoplay: {
     delay: 5000,
   },
   // If we need pagination
   pagination: {
-    el: ".food-images-swiper-pagination",
+    el: "#food-swiper-pagination",
     clickable: true,
   },
 });

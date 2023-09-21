@@ -35,7 +35,6 @@
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 185px;
-   
   }
   &-food-paragraph {
     color: $black;
@@ -46,21 +45,21 @@
     line-height: 24px;
   }
 }
-  
-@media only screen and (max-width:360px) {
-    .menu{
-        &-food-title{
-            font-size: 20px;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            max-width: 140px;
-           
-        }
-        &-food-paragraph{
-            font-size: 10px;
-        }
 
+
+
+
+@media only screen and (max-width: 360px) {
+  .menu {
+    &-food-title {
+      font-size: 20px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 140px;
     }
-    
+    &-food-paragraph {
+      font-size: 10px;
+    }
+  }
 }
