@@ -351,6 +351,8 @@ header {
 }
 
 .banner {
+  margin: 0 auto;
+  max-width: 600px;
   position: relative;
   top: 70px;
   padding-left: 20px;
@@ -381,7 +383,8 @@ header {
 }
 
 .availability {
-  margin-top: 70px;
+  max-width: 600px;
+  margin: 70px auto 0px;
   padding: 36px 20px;
   background: #111111;
 }
@@ -668,6 +671,8 @@ header {
 }
 
 .video-section {
+  margin: 0 auto;
+  max-width: 600px;
   background-color: #111111;
   padding: 64px 20px 48px 20px;
 }
@@ -709,6 +714,8 @@ header {
   }
 }
 .facilities {
+  margin: 0 auto;
+  max-width: 500px;
   padding: 60px 24px;
 }
 
@@ -785,6 +792,8 @@ header {
   }
 }
 .menu {
+  margin: 0 auto;
+  max-width: 600px;
   padding: 115px 20px 60px 20px;
   overflow: hidden;
 }
@@ -842,6 +851,11 @@ header {
     font-size: 10px;
   }
 }
+.stats-section {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
 .stats {
   padding: 48px 0px;
   background-color: #111111;
@@ -893,6 +907,10 @@ header {
   top: -12px;
 }
 
+.footer {
+  margin: 0 auto;
+  max-width: 600px;
+}
 .footer-content {
   margin-top: 60px;
   padding: 32px 20px 32px 20px;
