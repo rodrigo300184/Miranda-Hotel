@@ -473,9 +473,11 @@ header {
   background-color: #bead8e;
 }
 
+.about_section-2 {
+  margin-top: -115px;
+}
+
 .about_section-3 {
-  display: flex;
-  flex-direction: column;
   background: #fff;
   box-shadow: 0px 8px 16px 0px rgba(34, 34, 34, 0.02);
   width: 270px;
@@ -490,11 +492,13 @@ header {
 }
 
 .about_section-3_content {
+  position: relative;
   padding: 54px 0 45px;
 }
 
 .about_icon-team-front {
-  margin: 0 auto;
+  position: relative;
+  margin: 0 auto 29.5px;
   background-image: url("../icons/about/team-front.svg");
   width: 68px;
   height: 50px;
@@ -502,9 +506,9 @@ header {
 }
 
 .about_icon-team-background {
-  position: relative;
-  top: -119px;
-  left: 126px;
+  position: absolute;
+  top: 50px;
+  right: 0px;
   background-image: url("../icons/about/team-background.svg");
   width: 144px;
   height: 106px;
@@ -512,6 +516,7 @@ header {
 }
 
 .about-us-third-subtitle {
+  position: relative;
   text-align: center;
 }
 
@@ -523,6 +528,7 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: 22px;
+  margin: 21px 0 0 0;
   padding: 0 35px;
 }
 
@@ -545,7 +551,7 @@ header {
   height: 300px;
 }
 
-.about_icon-calendario {
+.about_icon-calendar {
   margin: 0 auto 29.5px;
   background-image: url("../icons/about/calendar-about.svg");
   width: 57px;
