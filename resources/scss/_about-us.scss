@@ -1,9 +1,9 @@
-.about {
+.about-us {
   display: flex;
   flex-direction: column;
 }
 
-.about_section-1 {
+.about-us_section-1 {
   padding: 0 20px 175px 20px;
   margin-top: 60px;
   background-color: $about-section-1-background-color;
@@ -26,28 +26,28 @@
   margin-bottom: 24px;
 }
 
-.about_section-2 {
+.about-us_section-2 {
   margin-top: -115px;
 }
 
-.about_section-3 {
+.about-us_section-3 {
   background: $white;
   width: 270px;
   margin: 0 auto;
 }
-.about_img-team {
+.about-us_img-team {
   margin: 0 auto;
   object-fit: cover;
   width: 270px;
   height: 300px;
 }
-.about_section-3_content {
+.about-us_section-3_content {
   position: relative;
   padding: 54px 0 45px;
   box-shadow: 0px 8px 16px 0px rgba(34, 34, 34, 0.1);
 }
 
-.about_icon-team-front {
+.about-us_icon-team-front {
   position: relative;
   margin: 0 auto 29.5px;
   background-image: url("../icons/about/team-front.svg");
@@ -55,7 +55,7 @@
   height: 50px;
   z-index: 1;
 }
-.about_icon-team-background {
+.about-us_icon-team-background {
   position: absolute;
   top: 50px;
   right: 0px;
@@ -82,16 +82,16 @@
   padding: 0 35px;
 }
 
-.about_section-4 {
+.about-us_section-4 {
   width: 270px;
   margin: 0 auto;
 }
 
-.about_section-4_content {
+.about-us_section-4_content {
   padding: 54px 0 38px;
   background: $about-section-3-background-color;
 }
-.about_img-room {
+.about-us_img-room {
   position: relative;
   top: 4px;
   margin: 0 auto;
@@ -99,7 +99,7 @@
   width: 270px;
   height: 300px;
 }
-.about_icon-calendar {
+.about-us_icon-calendar {
   margin: 0 auto 29.5px;
   background-image: url("../icons/about/calendar-about.svg");
   width: 57px;
@@ -131,31 +131,31 @@
 }
 
 @media only screen and (min-width: 1000px) {
-  .about {
+  .about-us {
     margin-top: 120px;
     display: flex;
     flex-direction: row-reverse;
     min-height: 780px;
   }
 
-  .about_section-1{
+  .about-us_section-1{
     padding-left: 185px;
     width: 56%;
   }
-  .about_section-2 {
+  .about-us_section-2 {
     margin: 0;
     display: flex;
     gap: 30px;
     flex-direction: row;
   }
-  .about_section-3 {
+  .about-us_section-3 {
     position: relative;
     display: flex;
     gap: 30px;
     flex-direction: column-reverse;
     margin-bottom: 155px;
   }
-  .about_section-4 {
+  .about-us_section-4 {
     position: relative;
     display: flex;
     gap: 30px;
