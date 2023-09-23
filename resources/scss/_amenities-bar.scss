@@ -1,0 +1,18 @@
+.amenities-bar {
+    position: relative;
+    display: flex;
+    padding: 0 24px;
+    margin: 24px auto 0;
+    gap:16px;
+    align-items: center;
+    width: fit-content;
+    max-width: 300px;
+    min-height: 40px;
+    background: $white;
+    box-shadow: 0px 8px 16px 0px rgba(138, 138, 138, 0.05);
+    z-index: 2;
+  }
+  .amenities-icon {
+    width: 16px;
+    height: 16px;
+  }

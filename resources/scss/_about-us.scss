@@ -23,19 +23,15 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-}
-.about_btn--gold {
-  margin-top: 24px;
-  background-color: $gold;
+  margin-bottom: 24px;
 }
 
-.about_section-2{
+.about_section-2 {
   margin-top: -115px;
 }
 
 .about_section-3 {
   background: $white;
-  box-shadow: 0px 8px 16px 0px rgba(34, 34, 34, 0.02);
   width: 270px;
   margin: 0 auto;
 }
@@ -47,7 +43,9 @@
 }
 .about_section-3_content {
   position: relative;
-  padding: 54px 0 45px;}
+  padding: 54px 0 45px;
+  box-shadow: 0px 8px 16px 0px rgba(34, 34, 34, 0.1);
+}
 
 .about_icon-team-front {
   position: relative;
@@ -132,20 +130,37 @@
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
   .about {
+    margin-top: 120px;
+    display: flex;
     flex-direction: row-reverse;
+    min-height: 780px;
+  }
+
+  .about_section-1{
+    padding-left: 185px;
+    width: 56%;
   }
   .about_section-2 {
+    margin: 0;
     display: flex;
+    gap: 30px;
     flex-direction: row;
   }
   .about_section-3 {
+    position: relative;
     display: flex;
+    gap: 30px;
     flex-direction: column-reverse;
+    margin-bottom: 155px;
   }
   .about_section-4 {
+    position: relative;
     display: flex;
-    gap: 10px;
+    gap: 30px;
+    flex-direction: column;
+    margin-right: -125px;
+    top: 30px;
   }
 }

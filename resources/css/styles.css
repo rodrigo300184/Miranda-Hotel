@@ -183,44 +183,6 @@ body {
   letter-spacing: -0.9px;
 }
 
-.small_button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 217px;
-  height: 60px;
-  flex-shrink: 0;
-}
-
-.regular_button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 250px;
-  height: 60px;
-  flex-shrink: 0;
-}
-
-.big_button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 290px;
-  height: 60px;
-  flex-shrink: 0;
-}
-
-.button-text {
-  font-family: Archivo;
-  color: #fff;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 2.8px;
-  text-transform: uppercase;
-}
-
 input[type=date]::-webkit-calendar-picker-indicator {
   width: 100%;
   height: 100%;
@@ -232,6 +194,71 @@ input[type=date]::-webkit-calendar-picker-indicator {
   margin: 0;
   opacity: 0;
   pointer-events: auto;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 60px;
+}
+.button_small {
+  width: 217px;
+}
+.button_small--gold {
+  background-color: #bead8e;
+}
+.button_small--transparent {
+  border: 2px solid rgba(255, 255, 255, 0.33);
+}
+.button_regular {
+  width: 250px;
+}
+.button_regular--gold {
+  background-color: #bead8e;
+}
+.button_regular--transparent {
+  border: 2px solid rgba(255, 255, 255, 0.33);
+}
+.button_big {
+  width: 290px;
+}
+.button_big--gold {
+  background-color: #bead8e;
+}
+.button_big--transparent {
+  border: 2px solid rgba(255, 255, 255, 0.33);
+}
+.button_text {
+  font-family: Archivo;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+}
+
+.amenities-bar {
+  position: relative;
+  display: flex;
+  padding: 0 24px;
+  margin: 24px auto 0;
+  gap: 16px;
+  align-items: center;
+  width: fit-content;
+  max-width: 300px;
+  min-height: 40px;
+  background: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(138, 138, 138, 0.05);
+  z-index: 2;
+}
+
+.amenities-icon {
+  width: 16px;
+  height: 16px;
 }
 
 header {
@@ -374,14 +401,6 @@ header {
   gap: 24px;
 }
 
-.banner_btn--gold {
-  background-color: #bead8e;
-}
-
-.banner_btn--black {
-  border: 2px solid rgba(255, 255, 255, 0.33);
-}
-
 .availability {
   max-width: 600px;
   margin: 70px auto 0px;
@@ -402,10 +421,6 @@ header {
   align-items: flex-start;
   gap: 23px;
   margin-bottom: 30px;
-}
-
-.availability_btn--gold {
-  background-color: #bead8e;
 }
 
 .calendar-icon {
@@ -466,11 +481,7 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-}
-
-.about_btn--gold {
-  margin-top: 24px;
-  background-color: #bead8e;
+  margin-bottom: 24px;
 }
 
 .about_section-2 {
@@ -479,7 +490,6 @@ header {
 
 .about_section-3 {
   background: #fff;
-  box-shadow: 0px 8px 16px 0px rgba(34, 34, 34, 0.02);
   width: 270px;
   margin: 0 auto;
 }
@@ -494,6 +504,7 @@ header {
 .about_section-3_content {
   position: relative;
   padding: 54px 0 45px;
+  box-shadow: 0px 8px 16px 0px rgba(34, 34, 34, 0.1);
 }
 
 .about_icon-team-front {
@@ -583,21 +594,37 @@ header {
     font-size: 50px;
   }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
   .about {
+    margin-top: 120px;
+    display: flex;
     flex-direction: row-reverse;
+    min-height: 780px;
+  }
+  .about_section-1 {
+    padding-left: 185px;
+    width: 56%;
   }
   .about_section-2 {
+    margin: 0;
     display: flex;
+    gap: 30px;
     flex-direction: row;
   }
   .about_section-3 {
+    position: relative;
     display: flex;
+    gap: 30px;
     flex-direction: column-reverse;
+    margin-bottom: 155px;
   }
   .about_section-4 {
+    position: relative;
     display: flex;
-    gap: 10px;
+    gap: 30px;
+    flex-direction: column;
+    margin-right: -125px;
+    top: 30px;
   }
 }
 .rooms-subtitle {
@@ -609,26 +636,6 @@ header {
 
 .rooms-title {
   text-align: center;
-}
-
-.amenities-bar {
-  position: relative;
-  display: flex;
-  padding: 0 24px;
-  margin: 24px auto 0;
-  gap: 16px;
-  align-items: center;
-  width: fit-content;
-  max-width: 300px;
-  min-height: 40px;
-  background: #fff;
-  box-shadow: 0px 8px 16px 0px rgba(138, 138, 138, 0.05);
-  z-index: 2;
-}
-
-.amenities-icon {
-  width: 16px;
-  height: 16px;
 }
 
 .room-container {
@@ -711,11 +718,7 @@ header {
   width: 335px;
   height: 270px;
   overflow: hidden;
-}
-
-.video_book-btn {
-  margin-top: 36px;
-  background-color: #bead8e;
+  margin-bottom: 36px;
 }
 
 @media only screen and (max-width: 360px) {
