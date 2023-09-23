@@ -2,12 +2,19 @@
   margin: 0 auto;
   max-width: 500px;
   padding: 60px 24px;
+  &--dark {
+    padding-top: 48px;
+    background-color: $black;
+  }
 }
 
 .facilities-subtitle {
   text-align: center;
   color: $grey;
   margin-bottom: 24px;
+  &--dark {
+    color: $white;
+  }
 }
 
 .feature {
@@ -54,9 +61,20 @@
     position: absolute;
     right: 32px;
     top: 0;
+    &--dark {
+      color: $black;
+      font-family: $archivo-font;
+      font-size: 120px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 130px; 
+    }
   }
   &_title {
     margin-bottom: 28px;
+    &--dark {
+      color:$white;
+    }
   }
   &_p {
     font-family: $archivo-font;
@@ -64,18 +82,21 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; 
+    line-height: 24px;
+    &--dark {
+      color:$white;
+    }
   }
 }
 
-@media only screen and (max-width:360px) {
-    .feature{
-    
-    &_title{
-        font-size: 28px;
-        margin-bottom: 20px;
+@media only screen and (max-width: 360px) {
+  .feature {
+    &_title {
+      font-size: 28px;
+      margin-bottom: 20px;
     }
-    &_number{
-        font-size: 110px;
+    &_number {
+      font-size: 110px;
     }
-}}
+  }
+}
