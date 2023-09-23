@@ -12,15 +12,15 @@
   right: 20px;
   bottom: 0;
 
-  &__a {
+  &_a {
     display: inline;
   }
 
-  &__line {
+  &_line {
     margin: 0 10px;
   }
 
-  &__current {
+  &_current {
     color: $gold;
   }
 }

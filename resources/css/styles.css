@@ -256,13 +256,13 @@ input[type=date]::-webkit-calendar-picker-indicator {
   right: 20px;
   bottom: 0;
 }
-.breadcrumb__a {
+.breadcrumb_a {
   display: inline;
 }
-.breadcrumb__line {
+.breadcrumb_line {
   margin: 0 10px;
 }
-.breadcrumb__current {
+.breadcrumb_current {
   color: #bead8e;
 }
 
@@ -292,6 +292,8 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 .amenities {
+  margin: 0 auto;
+  max-width: 600px;
   padding: 0px 20px;
 }
 .amenities_container {
@@ -762,6 +764,50 @@ header {
   font-weight: 400;
   line-height: normal;
   letter-spacing: -1.16px;
+}
+
+.restaurant {
+  max-width: 600px;
+  padding: 20px 20px 60px 20px;
+  margin: 51px auto;
+}
+.restaurant_container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.2);
+}
+.restaurant_container img {
+  width: 100%;
+}
+.restaurant_subtitle {
+  color: #777777;
+  font-family: Archivo, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.8px;
+  margin: 32px 0 26px;
+}
+.restaurant_title {
+  color: #111111;
+  font-family: Old Standard TT, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.05px;
+}
+.restaurant_paragraph {
+  color: #777777;
+  font-family: Archivo, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 26px 0 16px;
 }
 
 .rooms-subtitle {
