@@ -1,3 +1,22 @@
-.about-title{
+.about {
+  margin: 0 auto;
+  padding: 60px 20px 51px;
+  margin-top: 70px;
+  max-width: 600px;
+  &-title {
     padding-bottom: 20px;
+  }
+  &-video {
+    min-height: 186px;
+  }
+  &-paragraph {
+    color: $black;
+    text-align: center;
+    font-family: $old-font;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.16px;
+  }
 }

@@ -291,6 +291,90 @@ input[type=date]::-webkit-calendar-picker-indicator {
   height: 16px;
 }
 
+.amenities {
+  padding: 0px 20px;
+}
+.amenities_container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.amenities_container_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  height: 158px;
+  width: 158px;
+}
+.amenities_container_item-breakfast {
+  height: 58px;
+  width: 50px;
+}
+.amenities_container_item-pickup {
+  padding-top: 10px;
+  height: 58px;
+  width: 50px;
+  color: #bead8e;
+}
+.amenities_container_item-guide {
+  height: 58px;
+  width: 50px;
+}
+.amenities_container_item-bbq {
+  height: 58px;
+  width: 50px;
+}
+.amenities_container_item-luxury {
+  height: 58px;
+  width: 50px;
+}
+.amenities_container_item-text {
+  color: #111111;
+  text-align: center;
+  font-family: Archivo, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 2.4px;
+}
+.amenities_container_item:hover {
+  background-color: #bead8e;
+}
+.amenities_container_item:hover .amenities_container_item-breakfast {
+  filter: brightness(100);
+}
+.amenities_container_item:hover .amenities_container_item-pickup {
+  padding-top: 10px;
+  filter: brightness(100);
+}
+.amenities_container_item:hover .amenities_container_item-guide {
+  filter: brightness(100);
+}
+.amenities_container_item:hover .amenities_container_item-luxury {
+  filter: brightness(100);
+}
+.amenities_container_item:hover .amenities_container_item-text {
+  color: #fff;
+}
+
+.bbq--off {
+  display: none;
+}
+
+@media only screen and (max-width: 360px) {
+  .amenities_container_item {
+    height: 140px;
+    width: 140px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .bbq--off {
+    display: flex;
+  }
+}
 header {
   position: fixed;
   display: flex;
@@ -657,8 +741,27 @@ header {
     top: 30px;
   }
 }
+.about {
+  margin: 0 auto;
+  padding: 60px 20px 51px;
+  margin-top: 70px;
+  max-width: 600px;
+}
 .about-title {
   padding-bottom: 20px;
+}
+.about-video {
+  min-height: 186px;
+}
+.about-paragraph {
+  color: #111111;
+  text-align: center;
+  font-family: Old Standard TT, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.16px;
 }
 
 .rooms-subtitle {
