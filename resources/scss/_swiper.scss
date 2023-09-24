@@ -128,3 +128,26 @@
     background-color: $gold;
   }
 }
+
+.facts-swiper {
+  position: relative;
+  margin: 0px auto;
+  overflow: hidden;
+ 
+  .swiper-slide img {
+    width: 100%; /* Imágenes se ajustan al ancho del contenedor */
+    height: 244px; /* Imágenes se ajustan a la altura del contenedor */
+    max-width: 375px;
+  }
+  
+
+  &-pagination {
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: $gold;
+  }
+}

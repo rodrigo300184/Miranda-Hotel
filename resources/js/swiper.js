@@ -50,17 +50,17 @@ const foodImageSwiper = new Swiper(".food-images-swiper", {
 const factsSwiper = new Swiper(".facts-swiper", {
   // Optional parameters
   direction: "horizontal",
-  slidesPerView: "auto",
+  slidesPerView: 1,
   centeredSlides: true,
   spaceBetween: 16,
   loop: true,
   autoplay: {
-    delay: 5000,
+    delay: 2000,
   },
 
   // If we need pagination
   pagination: {
-    el: ".facts-images-swiper-pagination",
+    el: ".facts-swiper-pagination",
     clickable: true,
   },
 });

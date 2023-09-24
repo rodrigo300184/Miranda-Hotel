@@ -135,6 +135,25 @@
   background-color: #bead8e;
 }
 
+.facts-swiper {
+  position: relative;
+  margin: 0px auto;
+  overflow: hidden;
+}
+.facts-swiper .swiper-slide img {
+  width: 100%; /* Imágenes se ajustan al ancho del contenedor */
+  height: 244px; /* Imágenes se ajustan a la altura del contenedor */
+  max-width: 375px;
+}
+.facts-swiper-pagination {
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+}
+.facts-swiper .swiper-pagination-bullet-active {
+  background-color: #bead8e;
+}
+
 html,
 * {
   color: inherit;
@@ -1079,6 +1098,7 @@ header {
 .stats-section {
   margin: 0 auto;
   max-width: 600px;
+  margin-bottom: 60px;
 }
 
 .stats {
@@ -1132,12 +1152,83 @@ header {
   top: -12px;
 }
 
+.counter {
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 60px 20px;
+}
+.counter_subtitle {
+  color: #777777;
+  font-family: Archivo, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.8px;
+  margin-bottom: 24px;
+}
+.counter_container {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 36px 0 24px;
+}
+
+.fact {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 25.5px 20px 28.5px;
+}
+.fact_icon {
+  height: 60px;
+  width: 60px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fact_icon-1 {
+  background-image: url("../icons/counter/happy-people.svg");
+}
+.fact_icon-2 {
+  background-image: url("../icons/counter/world.svg");
+}
+.fact_icon-3 {
+  background-image: url("../icons/counter/thumb-up.svg");
+}
+.fact_text--big {
+  display: block;
+  color: #111111;
+  font-family: Old Standard TT, sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+}
+.fact_text--small {
+  display: block;
+  color: #777777;
+  font-family: Roboto, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.fact_arrow {
+  margin-left: auto;
+  height: 32px;
+  width: 32px;
+  background-image: url("../icons/counter/arrow.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .footer {
   margin: 0 auto;
   max-width: 600px;
 }
 .footer-content {
-  margin-top: 60px;
   padding: 32px 20px 32px 20px;
   background-image: url("../assets/footer/background.svg");
   background-repeat: repeat;
