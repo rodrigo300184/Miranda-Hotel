@@ -33,6 +33,9 @@
   background-image: url("../icons/swiper/arrow_left .svg");
   z-index: 1;
 }
+.swiper-btn-prev--room {
+  top: auto;
+}
 
 .swiper-btn-next {
   position: absolute;
@@ -46,6 +49,9 @@
   background-color: #bead8e;
   background-image: url("../icons/swiper/arrow_rigth.svg");
   z-index: 1;
+}
+.swiper-btn-next--room {
+  top: auto;
 }
 
 .carousel {
@@ -152,6 +158,59 @@
 }
 .facts-swiper .swiper-pagination-bullet-active {
   background-color: #bead8e;
+}
+
+.rooms-page-swiper {
+  text-align: center;
+  position: relative;
+}
+.rooms-page-swiper__wrapper {
+  margin-bottom: 24px;
+}
+.rooms-page-swiper__button--next {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin-right: 15px;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #bead8e;
+  background-image: url("../icons/swiper/arrow_rigth.svg");
+  z-index: 1;
+  cursor: pointer;
+}
+.rooms-page-swiper__button--prev {
+  position: absolute;
+  bottom: 0px;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f8f8f8;
+  background-image: url("../icons/swiper/arrow_left .svg");
+  z-index: 1;
+  cursor: pointer;
+}
+
+.swiper-pagination-bullet {
+  width: 7px;
+  height: 7px;
+}
+.swiper-pagination-bullet--square {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 0 !important;
+  color: #777777 !important;
+  background-color: transparent !important;
+  opacity: 1;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #bead8e !important;
 }
 
 html,
@@ -310,6 +369,9 @@ input[type=date]::-webkit-calendar-picker-indicator {
   background: #fff;
   box-shadow: 0px 8px 16px 0px rgba(138, 138, 138, 0.05);
   z-index: 2;
+}
+.room_amenities--down {
+  top: 244px;
 }
 
 ._icon {
@@ -836,6 +898,10 @@ header {
   margin: 26px 0 16px;
 }
 
+.rooms {
+  padding: 48px 20px;
+}
+
 .rooms-subtitle {
   text-align: center;
   margin-top: 60px;
@@ -857,6 +923,9 @@ header {
   max-height: 215px;
   margin: 0 auto;
   text-align: center;
+}
+.room-container--down {
+  top: 28px;
 }
 
 .room-name {

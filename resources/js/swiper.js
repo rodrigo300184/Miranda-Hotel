@@ -69,7 +69,7 @@ const roomsPageSwiper = new Swiper(".rooms-page-swiper", {
   spaceBetween: 24,
   grid: {
     fill: "row",
-    rows: 6,
+    rows: 1,
   },
   pagination: {
     el: ".rooms-page-swiper-pagination",
@@ -81,7 +81,7 @@ const roomsPageSwiper = new Swiper(".rooms-page-swiper", {
     },
   },
   navigation: {
-    nextEl: ".rooms-page-swiper__button--next",
-    prevEl: ".rooms-page-swiper__button--prev",
+    nextEl: ".rooms-page-swiper__button--next ",
+    prevEl: ".rooms-page-swiper__button--prev ",
   },
 });
