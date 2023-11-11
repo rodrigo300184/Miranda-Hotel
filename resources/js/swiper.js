@@ -67,9 +67,10 @@ const factsSwiper = new Swiper(".facts-swiper", {
 
 const roomsPageSwiper = new Swiper(".rooms-page-swiper", {
   spaceBetween: 16,
+  slidesPerView:1,
   grid: {
     fill: "row",
-    rows: 1,
+    rows: 6,
   },
   pagination: {
     el: ".rooms-page-swiper-pagination",
