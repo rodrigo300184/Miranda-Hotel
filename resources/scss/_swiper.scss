@@ -11,9 +11,11 @@
   height: 244px;
 }
 
-.swiper-slide img {
-  width: 100%; /* Imágenes se ajustan al ancho del contenedor */
-  height: 100%; /* Imágenes se ajustan a la altura del contenedor */
+.swiper-slide {
+  &-room img {
+    width: 100%; /* Imágenes se ajustan al ancho del contenedor */
+    height: 100%; /* Imágenes se ajustan a la altura del contenedor */
+  }
 }
 
 .swiper-btn-prev {
@@ -159,55 +161,12 @@
   }
 }
 
-// .rooms-page-swiper {
-//   position: relative;
-//   top: 0px;
-//   width: 100%;
-//   max-width: 375px;
-// }
-// .rooms-page-swiper-pagination {
-//     width:fit-content;
-//     margin: 0 auto;
-//     padding-top: 25px;
-//     text-align: center;
-// }
-// .swiper-pagination-bullet {
-//   &--poronga{
-//  height: 20px !important;
-//  width: 20px !important;
-// }
-// }
-
-// .rooms-page-swiper-button--prev {
-//   position: absolute;
-//   bottom: 0px;
-//   width: 32px;
-//   height: 32px;
-//   background-repeat: no-repeat;
-//   background-position: center;
-//   background-color: #f8f8f8;
-//   background-image: url("../icons/swiper/arrow_left\ .svg");
-//   z-index: 1;
-//   cursor: pointer;
-// }
-// .rooms-page-swiper-button--next {
-//   position: absolute;
-//   bottom: 0px;
-//   right: 0px;
-//   margin-right: 15px;
-//   width: 32px;
-//   height: 32px;
-//   background-repeat: no-repeat;
-//   background-position: center;
-//   background-color: $gold;
-//   background-image: url("../icons/swiper/arrow_rigth.svg");
-//   z-index: 1;
-//   cursor: pointer;
-// }
-
 .rooms-page-swiper {
   text-align: center;
   position: relative;
+  margin: 0 auto;
+  max-width: 375px;
+  overflow: hidden;
 
   &__wrapper {
     margin-bottom: 24px;
@@ -215,50 +174,56 @@
 
   &__button--next {
     position: absolute;
-    bottom: 0px;
+    right: 13px;
+    bottom: 10px;
     right: 0px;
     margin-right: 15px;
-    width: 32px;
-    height: 32px;
+    width: 16px;
+    height: 16px;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: $gold;
-    background-image: url("../icons/swiper/arrow_rigth.svg");
+    background-image: url("../icons/swiper/double\ arrow_right.svg");
     z-index: 1;
     cursor: pointer;
   }
 
   &__button--prev {
     position: absolute;
-    bottom: 0px;
-    width: 32px;
-    height: 32px;
+    left: 13px;
+    bottom: 10px;
+    width: 16px;
+    height: 16px;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #f8f8f8;
-    background-image: url("../icons/swiper/arrow_left\ .svg");
+    background-image: url("../icons/swiper/double\ arrow_left.svg");
+    rotate: 180;
     z-index: 1;
     cursor: pointer;
   }
 }
+
 .swiper-pagination-bullet {
   width: 7px;
   height: 7px;
- &--square {
+  &--square {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    opacity: 1 !important;
     width: 40px !important;
     height: 40px !important;
     border-radius: 0 !important;
-    color: $grey !important;
     background-color: transparent !important;
-    opacity: 1 ;
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
   }
+  &.swiper-pagination-bullet-inactive {
+    background-color: black !important;
+    color: #fff !important;
+  }
 
   &.swiper-pagination-bullet-active {
     background-color: $gold !important;
+    color: #fff !important;
   }
-
- 
 }

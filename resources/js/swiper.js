@@ -66,7 +66,7 @@ const factsSwiper = new Swiper(".facts-swiper", {
 });
 
 const roomsPageSwiper = new Swiper(".rooms-page-swiper", {
-  spaceBetween: 24,
+  spaceBetween: 16,
   grid: {
     fill: "row",
     rows: 1,

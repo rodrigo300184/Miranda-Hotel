@@ -24,7 +24,7 @@
   margin: 0 auto;
   text-align: center;
   &--down {
-    top:28px;
+    top: 28px;
   }
 }
 
@@ -53,15 +53,29 @@
   color: $gold;
   text-align: center;
   font-family: $archivo-font;
-  
   font-style: normal;
   font-weight: 700;
   line-height: 43px;
-  &-value{
+  font-size: 16px;
+  &-value {
     font-size: 32px;
   }
 
   &-nigth {
     font-size: 13px;
   }
+}
+.room-booking-now {
+  margin-left: 20px;
+  color: $light-grey;
+  text-align: right;
+  font-family: Archivo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.room_image{
+  width: 335px;
 }
