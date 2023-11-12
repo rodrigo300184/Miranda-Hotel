@@ -397,6 +397,13 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .rooms-details {
   margin-top: 70px;
   padding: 48px 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.rooms-details-container {
+  margin: 0 auto;
+  width: fit-content;
 }
 
 .room-details-subtitle {
@@ -429,6 +436,8 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 .room-details-paragraph {
+  max-width: 600px;
+  margin: 0 auto;
   margin-top: 48px;
   color: #777777;
   font-family: Roboto, serif;
@@ -440,6 +449,8 @@ input[type=date]::-webkit-calendar-picker-indicator {
 
 .room-details-amenities {
   padding: 12px 20px 17px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .room-details-bar {
@@ -451,7 +462,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 
 .amenities-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .amenities-inner-container {
