@@ -28,7 +28,7 @@
   position: relative;
   width: 16px;
   bottom: -17px;
-  &--grey{
+  &--grey {
     z-index: 2;
     bottom: -38px;
     left: 255px;
@@ -40,7 +40,6 @@
   margin-bottom: 13px;
   &--black {
     color: $black;
-   
   }
 }
 
@@ -60,16 +59,15 @@
     outline: none;
   }
 }
-  .availability_input [type="date"]::-webkit-calendar-picker-indicator{
-    background-image: url("../icons/availability/calendar.svg");
-    position: absolute;
-    z-index: 55;
-    left: 0px;
-    top: 0px;
-    color: #fff;
-    cursor: pointer;
-  }
-
+.availability_input[type="date"]::-webkit-calendar-picker-indicator {
+  background-image: url("../icons/availability/calendar.svg");
+  position: absolute;
+  z-index: 55;
+  left: 0px;
+  top: 0px;
+  color: #fff;
+  cursor: pointer;
+}
 
 .availability_input_rdetails {
   @include avalaibility_input-text;
@@ -85,12 +83,12 @@
     outline: none;
   }
 }
-.availability_input_rdetails [type="date"]::-webkit-calendar-picker-indicator{
+.availability_input_rdetails[type="date"]::-webkit-calendar-picker-indicator {
   background-image: url("../icons/availability/grey_calendar.svg");
   position: absolute;
   z-index: 55;
-  right: 0px;
-  top: 0px;
+  right: 15px;
+  top: 21px;
   color: #fff;
   cursor: pointer;
 }
@@ -125,25 +123,23 @@
 //   padding: 0 25px 0 25px;
 // }
 
-
-
-  // .banner__form__dateInput {
-  //   font: normal 400 16px/26px "Roboto", sans-serif;
-  //   line-height: 16.5px;
-  //   border: none;
-  //   outline: none;
-  //   border-bottom: solid 2px #bead8e;
-  //   background-color: transparent;
-  //   color: #686868;
-  //   padding: 0 0 10px 30px;
-  //   position: relative;
-  //   cursor: text;
-  // }
-  // .banner__form__dateInput::-webkit-calendar-picker-indicator {
-  //   background-image: url("./images/calendaricon.svg");
-  //   position: absolute;
-  //   left: 0;
-  //   top: 0;
-  //   color: #fff;
-  //   cursor: pointer;
-  // }
+// .banner__form__dateInput {
+//   font: normal 400 16px/26px "Roboto", sans-serif;
+//   line-height: 16.5px;
+//   border: none;
+//   outline: none;
+//   border-bottom: solid 2px #bead8e;
+//   background-color: transparent;
+//   color: #686868;
+//   padding: 0 0 10px 30px;
+//   position: relative;
+//   cursor: text;
+// }
+// .banner__form__dateInput::-webkit-calendar-picker-indicator {
+//   background-image: url("./images/calendaricon.svg");
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+//   color: #fff;
+//   cursor: pointer;
+// }
