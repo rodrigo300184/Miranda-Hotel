@@ -395,10 +395,9 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 .rooms-details {
-  margin-top: 70px;
   padding: 48px 20px;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 70px auto 0px;
 }
 
 .rooms-details-container {
