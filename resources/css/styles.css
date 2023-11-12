@@ -569,15 +569,16 @@ body {
 }
 
 .offers {
-  margin-top: 70px;
+  margin: 70px auto 0;
   padding: 48px 20px;
+  max-width: 600px;
 }
 
 .offers-card {
   background: #fff;
   box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1);
-  padding-bottom: 32px;
-  margin-bottom: 32px;
+  padding: 0 20px 32px;
+  margin: 0 auto 32px;
 }
 
 .offers-container {
@@ -588,7 +589,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 200px;
-  width: 335px;
+  width: 80%;
   margin-bottom: 16px;
 }
 
@@ -1296,7 +1297,8 @@ header {
 .room-container--popular {
   padding-top: 49px;
   top: -20px;
-  width: 335px;
+  width: 100%;
+  max-width: 375px;
   z-index: 1;
 }
 

@@ -3,15 +3,17 @@
 }
 
 .offers {
-  margin-top: 70px;
+  margin: 70px auto 0;
   padding: 48px 20px;
+  max-width: 600px;
 }
 
 .offers-card {
+  //max-width: 375px;
   background: #fff;
   box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1);
-  padding-bottom: 32px;
-  margin-bottom: 32px;
+  padding: 0 20px 32px;
+  margin: 0 auto 32px;
 }
 .offers-container {
   position: relative;
@@ -21,7 +23,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 200px;
-  width: 335px;
+  width: 80%;
   margin-bottom: 16px;
 }
 
@@ -97,7 +99,7 @@
   text-align: center;
   margin-bottom: 25px;
 }
-.popular-rooms{
-    margin-bottom: 60px;
-    padding-bottom: 48px;
+.popular-rooms {
+  margin-bottom: 60px;
+  padding-bottom: 48px;
 }

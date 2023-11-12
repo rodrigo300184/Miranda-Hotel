@@ -36,7 +36,8 @@
   &--popular{
     padding-top: 49px;
     top:-20px;
-    width: 335px;
+    width: 100%;
+    max-width: 375px;
     z-index: 1;
   }
 }
