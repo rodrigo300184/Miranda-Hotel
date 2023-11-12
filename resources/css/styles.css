@@ -411,6 +411,11 @@ input[type=date]::-webkit-calendar-picker-indicator {
   margin-bottom: 12px;
   color: #777777;
 }
+.room-details-subtitle--gold {
+  color: #bead8e;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
 
 .room-luxury-title {
   color: #111111;
@@ -436,6 +441,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 .room-details-paragraph {
+  text-align: justify;
   max-width: 600px;
   margin: 0 auto;
   margin-top: 48px;
@@ -445,6 +451,12 @@ input[type=date]::-webkit-calendar-picker-indicator {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+}
+.room-details-paragraph-founder {
+  margin: 0;
+  height: 81px;
+  width: 317px;
+  text-align: center;
 }
 
 .room-details-amenities {
@@ -530,6 +542,30 @@ input[type=date]::-webkit-calendar-picker-indicator {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.founder-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0px 41px;
+}
+.founder-card-avatar {
+  position: relative;
+  background-image: url("../icons/avatars/grey_ellipse.svg");
+  height: 150px;
+  width: 150px;
+  margin-bottom: 38px;
+}
+.founder-card-avatar-circle {
+  position: absolute;
+  right: 0px;
+}
+.founder-card-avatar-checkmark {
+  position: absolute;
+  right: 15px;
+  top: 15px;
 }
 
 .amenities {
