@@ -16,9 +16,6 @@
   height: 244px;
 }
 
-.swiper-slide {
-  margin-top: 0 !important;
-}
 .swiper-slide-room img {
   width: 100%; /* Imágenes se ajustan al ancho del contenedor */
   height: 100%; /* Imágenes se ajustan a la altura del contenedor */
