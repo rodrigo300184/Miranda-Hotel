@@ -410,6 +410,10 @@ body {
   letter-spacing: -1.44px;
   margin-bottom: 12px;
 }
+.room-luxury-title--white {
+  text-align: center;
+  color: #fff;
+}
 
 .availability-title {
   color: #111111;
@@ -566,6 +570,106 @@ body {
 
 .offers {
   margin-top: 70px;
+  padding: 48px 20px;
+}
+
+.offers-card {
+  background: #fff;
+  box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1);
+  padding-bottom: 32px;
+  margin-bottom: 32px;
+}
+
+.offers-container {
+  position: relative;
+  margin: 0 auto;
+  background-image: url("../assets/rooms/room1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 335px;
+  margin-bottom: 16px;
+}
+
+.offers-inner-container {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  gap: 2px;
+  position: absolute;
+  top: 135px;
+  right: 13px;
+}
+
+.offer-price {
+  color: #bead8e;
+  text-align: right;
+  font-family: Archivo, sans-serif;
+  text-decoration: line-through;
+}
+.offer-price-value {
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.offer-price-value--discount {
+  text-decoration: none;
+  color: #de5777;
+  font-size: 30px;
+}
+.offer-price-night {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.offer-price-night--discount {
+  text-decoration: none;
+  color: #de5777;
+  font-size: 12px;
+}
+
+.offer-price-night {
+  color: #bead8e;
+  font-family: Archivo;
+  text-decoration-line: strikethrough;
+}
+
+.offers-paragraph {
+  color: #777777;
+  font-family: Roboto, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.offers-amenities {
+  margin: 25px;
+}
+
+.popular {
+  padding: 48px 20px 0px;
+  background: #111111;
+}
+
+.popular-title {
+  color: #bead8e;
+  font-family: Archivo, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.8px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.popular-rooms {
+  margin-bottom: 60px;
+  padding-bottom: 48px;
 }
 
 .amenities {
@@ -1188,6 +1292,12 @@ header {
 .room-container--related {
   top: 5px;
   padding-bottom: 0;
+}
+.room-container--popular {
+  padding-top: 49px;
+  top: -20px;
+  width: 335px;
+  z-index: 1;
 }
 
 .room-name {

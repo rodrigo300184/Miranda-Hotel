@@ -33,6 +33,12 @@
     top: 5px;
     padding-bottom:0;
   }
+  &--popular{
+    padding-top: 49px;
+    top:-20px;
+    width: 335px;
+    z-index: 1;
+  }
 }
 
 .room-name {
