@@ -577,6 +577,14 @@ input[type=date]::-webkit-calendar-picker-indicator {
   margin-bottom: 74px;
 }
 
+.offers-title {
+  padding-bottom: 20px;
+}
+
+.offers {
+  margin-top: 70px;
+}
+
 .amenities {
   margin: 0 auto;
   max-width: 600px;
@@ -1165,6 +1173,10 @@ header {
   margin-top: 60px;
   color: #777777;
   margin-bottom: 24px;
+}
+
+.rooms-main-title {
+  padding-bottom: 5px;
 }
 
 .rooms-title {
