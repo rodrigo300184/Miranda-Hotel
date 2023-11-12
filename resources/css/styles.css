@@ -462,7 +462,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .room-details-amenities {
   padding: 12px 20px 17px;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 60px auto 0px;
 }
 
 .room-details-bar {
@@ -566,6 +566,15 @@ input[type=date]::-webkit-calendar-picker-indicator {
   position: absolute;
   right: 15px;
   top: 15px;
+}
+
+.cancellation {
+  margin-top: 63px;
+  margin-bottom: 101px;
+}
+
+.related-rooms {
+  margin-bottom: 74px;
 }
 
 .amenities {
@@ -1174,6 +1183,10 @@ header {
   top: 28px;
   padding-bottom: 0;
 }
+.room-container--related {
+  top: 5px;
+  padding-bottom: 0;
+}
 
 .room-name {
   display: inline-flex;
@@ -1187,6 +1200,9 @@ header {
   font-size: 28px;
   line-height: 36px;
   letter-spacing: -1.2px;
+}
+.room-subtitle-related {
+  font-size: 24px;
 }
 
 .room-description {
@@ -1216,6 +1232,9 @@ header {
 }
 .room-price-nigth {
   font-size: 13px;
+}
+.room-price-related {
+  font-size: 16px;
 }
 
 .room-booking-now {
