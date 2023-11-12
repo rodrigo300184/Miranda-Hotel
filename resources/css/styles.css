@@ -328,6 +328,9 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .button_big--transparent {
   border: 2px solid rgba(255, 255, 255, 0.33);
 }
+.button_big--centered {
+  margin: 0 auto;
+}
 .button_text {
   font-family: Archivo;
   color: #fff;
@@ -389,6 +392,133 @@ input[type=date]::-webkit-calendar-picker-indicator {
 ._icon {
   width: 16px;
   height: 16px;
+}
+
+.rooms-details {
+  margin-top: 70px;
+  padding: 48px 20px;
+}
+
+.room-details-subtitle {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #777777;
+}
+
+.room-luxury-title {
+  color: #111111;
+  font-family: Old Standard TT, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -1.44px;
+  margin-bottom: 12px;
+}
+
+.availability-title {
+  color: #111111;
+  text-align: center;
+  font-family: Archivo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  margin-bottom: 35px;
+}
+
+.room-details-paragraph {
+  margin-top: 48px;
+  color: #777777;
+  font-family: Roboto, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.room-details-amenities {
+  padding: 12px 20px 17px;
+}
+
+.room-details-bar {
+  margin-top: 14px;
+  margin-bottom: 35px;
+  width: 335px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.amenities-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.amenities-inner-container {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.amenities-item {
+  display: flex;
+  gap: 8px;
+}
+
+.amenities-icon {
+  width: 16px;
+  height: 16px;
+}
+.amenities-icon-ac {
+  background-image: url("../icons/room_amenities/ac.svg");
+}
+.amenities-icon-breakfast {
+  background-image: url("../icons/room_amenities/breakfast.svg");
+}
+.amenities-icon-cleaning {
+  background-image: url("../icons/room_amenities/cleaning.svg");
+}
+.amenities-icon-grocery {
+  background-image: url("../icons/room_amenities/grocery.svg");
+}
+.amenities-icon-shop {
+  background-image: url("../icons/room_amenities/shop.svg");
+}
+.amenities-icon-support {
+  background-image: url("../icons/room_amenities/support.svg");
+}
+.amenities-icon-security {
+  background-image: url("../icons/room_amenities/security.svg");
+}
+.amenities-icon-wifi {
+  background-image: url("../icons/room_amenities/wifi.svg");
+}
+.amenities-icon-kitchen {
+  background-image: url("../icons/room_amenities/kitchen.svg");
+}
+.amenities-icon-shower {
+  background-image: url("../icons/room_amenities/shower.svg");
+}
+.amenities-icon-bed {
+  background-image: url("../icons/room_amenities/bed.svg");
+}
+.amenities-icon-towels {
+  background-image: url("../icons/room_amenities/towels.svg");
+}
+.amenities-icon-locker {
+  background-image: url("../icons/room_amenities/locker.svg");
+}
+.amenities-icon-expert {
+  background-image: url("../icons/room_amenities/expert.svg");
+}
+
+.amenities-text {
+  color: #777777;
+  font-family: Roboto, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .amenities {
@@ -623,6 +753,11 @@ header {
   padding: 36px 20px;
   background: #111111;
 }
+.availability--white {
+  background: #fff;
+  margin: 49px auto 0px;
+  width: 290px;
+}
 
 .availability_form {
   display: inline-flex;
@@ -635,13 +770,18 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 23px;
   margin-bottom: 30px;
 }
 
 .calendar-icon {
-  position: absolute;
+  position: relative;
   width: 16px;
+  bottom: -17px;
+}
+.calendar-icon--grey {
+  z-index: 2;
+  bottom: -38px;
+  left: 255px;
 }
 
 .label-text {
@@ -651,6 +791,10 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-bottom: 13px;
+}
+.label-text--black {
+  color: #111111;
 }
 
 .availability_input {
@@ -670,6 +814,49 @@ header {
   margin-bottom: 15px;
   border: none;
   border-bottom: 2px solid #bead8e;
+}
+.availability_input:focus {
+  outline: none;
+}
+
+.availability_input [type=date]::-webkit-calendar-picker-indicator {
+  background-image: url("../icons/availability/calendar.svg");
+  position: absolute;
+  z-index: 55;
+  left: 0px;
+  top: 0px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.availability_input_rdetails {
+  font-family: Roboto;
+  color: #686868;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  padding: 0 22px 0 30px;
+  height: 60px;
+  width: 290px;
+  background: #f8f8f8;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.availability_input_rdetails:focus {
+  outline: none;
+}
+
+.availability_input_rdetails [type=date]::-webkit-calendar-picker-indicator {
+  background-image: url("../icons/availability/grey_calendar.svg");
+  position: absolute;
+  z-index: 55;
+  right: 0px;
+  top: 0px;
+  color: #fff;
+  cursor: pointer;
 }
 
 .about-us {
@@ -971,7 +1158,11 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: 43px;
-  font-size: 16px;
+  font-size: 14px;
+}
+.room-price-left {
+  text-align: left;
+  margin-bottom: 16px;
 }
 .room-price-value {
   font-size: 32px;

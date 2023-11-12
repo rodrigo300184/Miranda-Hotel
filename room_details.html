@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Miranda</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./resources/css/styles.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Old+Standard+TT&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Flickity -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Scripts -->
+    <script src="./resources/js/script.js" defer></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="header_left">
+        <div class="header_menu" id="header_menu"></div>
+        <a href="./index.html" class="header_letterhead">
+          <div class="header_hotel-logo"></div>
+          <div class="header_hotel-name"></div>
+        </a>
+      </div>
+      <div class="header_right">
+        <div class="header_member-icon"></div>
+        <div class="header_magnifier-icon"></div>
+      </div>
+
+      <ul id="navbar" class="navbar">
+        <li class="navbar_li">
+          <a class="navbar_a" href="./about-us">About Us</a>
+        </li>
+        <li class="navbar_li"><a class="navbar_a" href="./rooms">Rooms</a></li>
+        <li class="navbar_li">
+          <a class="navbar_a" href="#offers">Offers</a>
+        </li>
+        <li class="navbar_li">
+          <a class="navbar_a" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </header>
+    <!-- Banner Section -->
+    <section class="banner">
+      <h2 class="banner-subtitle subtitle">THE ULTIMATE LUXURY</h2>
+      <h1 class="banner-main-title main-title main-title-white about-title">
+        Ultimate Room
+      </h1>
+      <div class="breadcrumb">
+        <a href="./index.html" class="a breadcrumb_a">Home</a
+        ><span class="breadcrumb_line">|</span
+        ><span class="breadcrumb_current">Room Details</span>
+      </div>
+    </section>
+    <!-- Rooms Sections -->
+    <section class="rooms-details">
+      <h2 class="subtitle room-details-subtitle">DOUBLE BED</h2>
+      <h1 class="room-luxury-title">Luxury Double Bed</h1>
+      <div class="room-price room-price-left">
+        <span class="room-price-value"> $345</span>
+        <span class="room-price-nigth">/Night</span>
+      </div>
+      <img
+        class="room_image"
+        src="./resources/assets/rooms/room1.jpg"
+        alt="room"
+      />
+      <!-- Availability -->
+      <div class="availability--white">
+        <h2 class="availability-title">Check Availability</h2>
+        <form action="" class="availability_form">
+          <div class="availability_item">
+            <label class="label-text label-text--black" for="arrivalDate"
+              >Check In</label
+            >
+            <input
+              class="availability_input_rdetails"
+              id="arrivalDate"
+              type="date"
+            />
+          </div>
+          <div class="availability_item">
+            <label class="label-text label-text--black" for="departureDate"
+              >Check Out</label
+            >
+            <input
+              class="availability_input_rdetails"
+              id="departureDate"
+              type="date"
+            />
+          </div>
+          <a
+            href="/rooms.html"
+            class="button button_big button_big--gold button_big--centered"
+          >
+            <div class="button_text">CHECK AVAILABILITY</div>
+          </a>
+        </form>
+      </div>
+      <p class="room-details-paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+        beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+        voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+        dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+        est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+        sed quia non numquam eius modi tempora incidunt ut labore et dolore
+        magnam aliquam quaerat voluptatem.
+      </p>
+    </section>
+    <!-- Amenities Section-->
+    <section class="room-details-amenities">
+      <h2 class="third-subtitle">Amenities</h2>
+      <div class="room-details-bar"></div>
+      <div class="amenities-container">
+        <div class="amenities-inner-container">
+          <div class="amenities-item">
+            <div class="amenities-icon amenities-icon-ac"></div>
+            <div class="amenities-text">Air conditioner</div>
+          </div>
+          <div class="amenities-item">
+            <div class="amenities-icon amenities-icon-breakfast"></div>
+            <div class="amenities-text">Breakfast</div>
+          </div>
+          <div class="amenities-item">
+            <div class="amenities-icon amenities-icon-cleaning"></div>
+            <div class="amenities-text">Cleaning</div>
+          </div>
+          <div class="amenities-item">
+            <div class="amenities-icon amenities-icon-grocery"></div>
+            <div class="amenities-text">Grocery</div>
+          </div>
+          <div class="amenities-item">
+            <div class="amenities-icon amenities-icon-shop"></div>
+            <div class="amenities-text">Shop near</div>
+          </div>
+          <div class="amenities-item">
+            <div class="amenities-icon amenities-icon-support"></div>
+            <div class="amenities-text">24/7 Online Support</div>
+          </div>
+          <div class="amenities-item">
+            <div class="amenities-icon amenities-icon-security"></div>
+            <div class="amenities-text">Smart Security</div>
+          </div>
+        </div>
+        <div class="amenities-inner-container">
+          <div class="amenities-item">
+            <div class="amenities-icon amenities-icon-wifi"></div>
+            <div class="amenities-text">High speed WiFi</div>
+          </div>
+          <div class="amenities-item">
+            <div class="amenities-icon amenities-icon-kitchen"></div>
+            <div class="amenities-text">Kitchen</div>
+          </div>
+          <div class="amenities-item">
+            <div class="amenities-icon amenities-icon-shower"></div>
+            <div class="amenities-text">Shower</div>
+          </div>
+          <div class="amenities-item">
+            <div class="amenities-icon amenities-icon-bed"></div>
+            <div class="amenities-text">Single bed</div>
+          </div>
+          <div class="amenities-item">
+            <div class="amenities-icon amenities-icon-towels"></div>
+            <div class="amenities-text">Towels</div>
+          </div>
+          <div class="amenities-item">
+            <div class="amenities-icon amenities-icon-locker"></div>
+            <div class="amenities-text">Strong Locker</div>
+          </div>
+          <div class="amenities-item">
+            <div class="amenities-icon amenities-icon-expert"></div>
+            <div class="amenities-text">Expert Team</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <section class="footer">
+      <div class="footer-content">
+        <div class="footer-letterhead">H</div>
+        <h2 class="footer-letterhead-text"><span>HOTEL </span>MIRANDA</h2>
+        <p class="footer-paragraph">
+          Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing
+          eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitat ion ullamco laboris nisi.
+        </p>
+        <div class="footer-socials">
+          <a href="" class="footer-socials-facebook"></a>
+          <a href="" class="footer-socials-twitter"></a>
+          <a href="" class="footer-socials-behace"></a>
+          <a href="" class="footer-socials-linkedin"></a>
+          <a href="" class="footer-socials-youtube"></a>
+        </div>
+        <h4 class="footer-subtitle">Services.</h4>
+        <div class="footer-services">
+          <ul>
+            <li>+ Resturant & Bar</li>
+            <li>+ Swimming Pool</li>
+            <li>+ Wellness & Spa</li>
+            <li>+ Restaurant</li>
+            <li>+ Conference Room</li>
+            <li>+ Coctail Party House</li>
+          </ul>
+          <ul>
+            <li>+ Gaming Zone</li>
+            <li>+ Marrige Party</li>
+            <li>+ Party Planning</li>
+            <li>+ Tour Consultancy</li>
+          </ul>
+        </div>
+        <h4 class="footer-subtitle footer-subtitle-contact">Contact Us.</h4>
+        <div class="footer-contact-data">
+          <div class="footer-contact">
+            <img
+              class="footer-contact-icons"
+              src="./resources/icons/footer/telephone.svg"
+              alt=""
+            />
+            <div>
+              <h4 class="footer-contact-title">Phone Number</h4>
+              <p class="footer-contact-subtitle">+347 876 765 76 577</p>
+            </div>
+          </div>
+          <div class="footer-contact">
+            <img
+              class="footer-contact-icons"
+              src="./resources/icons/footer/email.svg"
+              alt=""
+            />
+            <div>
+              <h4 class="footer-contact-title">Email</h4>
+              <p class="footer-contact-subtitle">
+                rodrigomartinez.correo@gmail.com
+              </p>
+            </div>
+          </div>
+          <div class="footer-contact">
+            <img
+              class="footer-contact-icons"
+              src="./resources/icons/footer/location.svg"
+              alt=""
+            />
+            <div>
+              <h4 class="footer-contact-title">Location</h4>
+              <p class="footer-contact-subtitle">Málaga - Spain</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-end">
+        <p class="footer-end-copyright">Copyright By@Rodrigo - 2023</p>
+        <p>Terms of use | Privacy Environmental Policy</p>
+      </div>
+    </section>
+    <script src="./resources/js/swiper.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+.rooms-details {
+  margin-top: 70px;
+  padding: 48px 20px;
+}
+
+.room-details-subtitle {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: $grey;
+}
+
+.room-luxury-title {
+  color: $black;
+  font-family: $old-font;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -1.44px;
+  margin-bottom: 12px;
+}
+
+.availability-title {
+  color: $black;
+  text-align: center;
+  font-family: Archivo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  margin-bottom: 35px;
+}
+.room-details-paragraph {
+  margin-top: 48px;
+  color: $grey;
+  font-family: $roboto-font;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.room-details-amenities {
+  padding: 12px 20px 17px;
+}
+
+.room-details-bar {
+  margin-top: 14px;
+  margin-bottom: 35px;
+  width: 335px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.amenities-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.amenities-inner-container {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.amenities-item {
+  display: flex;
+  gap: 8px;
+}
+
+.amenities-icon {
+  width: 16px;
+  height: 16px;
+
+  &-ac{
+    background-image: url('../icons/room_amenities/ac.svg');
+  }
+  &-breakfast{
+    background-image: url('../icons/room_amenities/breakfast.svg');
+  }
+  &-cleaning{
+    background-image: url('../icons/room_amenities/cleaning.svg');
+  }
+  &-grocery{
+    background-image: url('../icons/room_amenities/grocery.svg');
+  }
+  &-shop{
+    background-image: url('../icons/room_amenities/shop.svg');
+  }
+  &-support{
+    background-image: url('../icons/room_amenities/support.svg');
+  }
+  &-security{
+    background-image: url('../icons/room_amenities/security.svg');
+  }
+  &-wifi{
+    background-image: url('../icons/room_amenities/wifi.svg');
+  }
+  &-kitchen{
+    background-image: url('../icons/room_amenities/kitchen.svg');
+  }
+  &-shower{
+    background-image: url('../icons/room_amenities/shower.svg');
+  }
+  &-bed{
+    background-image: url('../icons/room_amenities/bed.svg');
+  }
+  &-towels{
+    background-image: url('../icons/room_amenities/towels.svg');
+  }
+  &-locker{
+    background-image: url('../icons/room_amenities/locker.svg');
+  }
+  &-expert{
+    background-image: url('../icons/room_amenities/expert.svg');
+  }
+}
+
+.amenities-text {
+  color: $grey;
+  font-family: $roboto-font;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
