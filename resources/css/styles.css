@@ -872,7 +872,6 @@ header {
 .availability_input[type=date]::-webkit-calendar-picker-indicator {
   background-image: url("../icons/availability/calendar.svg");
   position: absolute;
-  z-index: 55;
   left: 0px;
   top: 0px;
   color: #fff;
@@ -902,7 +901,6 @@ header {
 .availability_input_rdetails[type=date]::-webkit-calendar-picker-indicator {
   background-image: url("../icons/availability/grey_calendar.svg");
   position: absolute;
-  z-index: 55;
   right: 15px;
   top: 21px;
   color: #fff;
@@ -1053,6 +1051,12 @@ header {
     display: flex;
     flex-direction: row-reverse;
     min-height: 780px;
+  }
+  .about-us-title {
+    max-width: 457px;
+  }
+  .about-us-paragraph {
+    max-width: 397px;
   }
   .about-us_section-1 {
     padding-left: 185px;
