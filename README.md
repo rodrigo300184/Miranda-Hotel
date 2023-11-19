@@ -1,7 +1,12 @@
 # Miranda-Hotel
-
-![Vista previa de la aplicación](https://github.com/rodrigo300184/OxygenShop/blob/main/resources/images/Oxygen-Shop.png)
-
+<br>
+<div style="display: flex; justify-content: space-around;">
+  <img src="https://github.com/rodrigo300184/Miranda-Hotel/blob/59524023b6205eb73135f6f4a9c4f3e7398941c0/resources/assets/readme/1.png" alt="Preview 1" width="200">
+  <img src="https://github.com/rodrigo300184/Miranda-Hotel/blob/59524023b6205eb73135f6f4a9c4f3e7398941c0/resources/assets/readme/2.png" alt="Preview 2" width="200">
+  <img src="https://github.com/rodrigo300184/Miranda-Hotel/blob/59524023b6205eb73135f6f4a9c4f3e7398941c0/resources/assets/readme/3.png" alt="Preview 3" width="200">
+  <img src="https://github.com/rodrigo300184/Miranda-Hotel/blob/59524023b6205eb73135f6f4a9c4f3e7398941c0/resources/assets/readme/4.png" alt="Preview 4" width="200">
+</div>
+<br>
 ¡Bienvenido a Miranda-Hotel! Página web totalmente responsive (por ahora versión mobile). En la página puedes interactuar con diferentes funcionalidades y sliders de imagenes.
 
 **Enlace a la aplicación en vivo: [Miranda Hotel](https://miranda-hotel.vercel.app/)**
@@ -33,9 +38,14 @@ cd Miranda-Hotel
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------
 # Miranda-Hotel
-
-![Preview of the application](https://github.com/rodrigo300184/OxygenShop/blob/main/resources/images/Oxygen-Shop.png)
-
+<br>
+<div style="display: flex; justify-content: space-around;">
+  <img src="https://github.com/rodrigo300184/Miranda-Hotel/blob/59524023b6205eb73135f6f4a9c4f3e7398941c0/resources/assets/readme/1.png" alt="Preview 1" width="200">
+  <img src="https://github.com/rodrigo300184/Miranda-Hotel/blob/59524023b6205eb73135f6f4a9c4f3e7398941c0/resources/assets/readme/2.png" alt="Preview 2" width="200">
+  <img src="https://github.com/rodrigo300184/Miranda-Hotel/blob/59524023b6205eb73135f6f4a9c4f3e7398941c0/resources/assets/readme/3.png" alt="Preview 3" width="200">
+  <img src="https://github.com/rodrigo300184/Miranda-Hotel/blob/59524023b6205eb73135f6f4a9c4f3e7398941c0/resources/assets/readme/4.png" alt="Preview 4" width="200">
+</div>
+<br>
 Welcome to Miranda-Hotel! A fully responsive web page (currently in mobile version). On the page, you can interact with different functionalities and image sliders.
 
 **Link to the live application: [Miranda Hotel](https://miranda-hotel.vercel.app/)**
