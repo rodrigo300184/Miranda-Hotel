@@ -9,7 +9,7 @@
 <br>
 ¡Bienvenido a Miranda-Hotel! Página web totalmente responsive (por ahora versión mobile). En la página puedes interactuar con diferentes funcionalidades y sliders de imagenes.
 
-**Enlace a la aplicación en vivo: [Miranda Hotel](https://miranda-hotel.vercel.app/)**
+**Enlace a la aplicación en vivo: [Miranda Hotel](https://miranda-hotel-git-main-rodrigo-martinezs-projects.vercel.app/)**
 
 ## Descripción
 
@@ -48,7 +48,7 @@ cd Miranda-Hotel
 <br>
 Welcome to Miranda-Hotel! A fully responsive web page (currently in mobile version). On the page, you can interact with different functionalities and image sliders.
 
-**Link to the live application: [Miranda Hotel](https://miranda-hotel.vercel.app/)**
+**Link to the live application: [Miranda Hotel](https://miranda-hotel-git-main-rodrigo-martinezs-projects.vercel.app/)**
 
 ## Description
 
