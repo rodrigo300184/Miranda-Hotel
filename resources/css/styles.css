@@ -284,6 +284,7 @@ body {
   justify-content: center;
   flex-shrink: 0;
   height: 60px;
+  border: none;
 }
 .button_small {
   width: 217px;
