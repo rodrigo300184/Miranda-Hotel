@@ -92,35 +92,73 @@
       <!-- Availability -->
       <div class="availability--white">
         <h2 class="availability-title">Check Availability</h2>
-        <form action="" class="availability_form">
-          <div class="availability_item">
-            <label class="label-text label-text--black" for="arrivalDate"
-              >Check In</label
-            >
-            <input
-              class="availability_input_rdetails"
-              id="arrivalDate"
-              type="date"
-            />
-          </div>
-          <div class="availability_item">
-            <label class="label-text label-text--black" for="departureDate"
-              >Check Out</label
-            >
-            <input
-              class="availability_input_rdetails"
-              id="departureDate"
-              type="date"
-            />
-          </div>
-          <a
-            href="/rooms.html"
-            class="button button_big button_big--gold button_big--centered"
-          >
-            <div class="button_text">CHECK AVAILABILITY</div>
-          </a>
-        </form>
-      </div>
+        <form class="availability_form" id="availabilityForm">
+                <label class="label-text label-text--black" for="checkIn"
+                  >Check In</label
+                >
+                <input
+                  class="availability_input_rdetails"
+                  type="date"
+                  name="checkIn"
+                  id="detailsCheckIn"
+                />
+                <label class="label-text label-text--black" for="checkIn"
+                  >Check Out</label
+                >
+                <input
+                  class="availability_input_rdetails"
+                  type="date"
+                  name="checkOut"
+                  id="detailsCheckOut"
+                />
+                <label class="label-text label-text--black" for="checkIn"
+                  >Full Name</label
+                >
+                <input
+                  class="availability_input_rdetails"
+                  type="text"
+                  name="fullName"
+                  id="detailsFullName"
+                  placeholder="Type your name..."
+                />
+                <label class="label-text label-text--black" for="checkIn"
+                  >Email</label
+                >
+                <input
+                  class="availability_input_rdetails"
+                  type="email"
+                  name="email"
+                  id="detailsEmail"
+                  placeholder="Type your email..."
+                />
+                <label class="label-text label-text--black" for="checkIn"
+                  >Phone</label
+                >
+                <input
+                  class="availability_input_rdetails"
+                  type="text"
+                  name="phone"
+                  id="detailsPhone"
+                  placeholder="Type your phone..."
+                />
+                <label class="label-text label-text--black" for="checkIn"
+                  >Message (Special resquest)</label
+                >
+                <textarea
+                  class="availability_text-area"
+                  name="message"
+                  id="detailsMessage"
+                  cols="30"
+                  rows="3"
+                  placeholder="Type your message..."
+                ></textarea>
+                <input
+                  class="button button_big button_big--gold button_text"
+                  type="submit"
+                  value="CHECK AVAILABILITY"
+                />
+              </form>
+    </div>
       <p class="room-details-paragraph">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

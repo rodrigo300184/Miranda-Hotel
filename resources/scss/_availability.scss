@@ -14,6 +14,7 @@
   display: inline-flex;
   flex-direction: column;
   width: 100%;
+  gap: 10px;
 }
 
 .availability_item {
@@ -21,6 +22,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  gap: 10px;
   margin-bottom: 30px;
 }
 
@@ -37,9 +39,9 @@
 
 .label-text {
   @include label-text;
-  margin-bottom: 13px;
   &--black {
     color: $black;
+    font-size: 14px;
   }
 }
 
@@ -71,9 +73,8 @@
 .availability_input_rdetails {
   @include avalaibility_input-text;
   border: none;
-  padding: 0 22px 0 30px;
-  height: 60px;
-  width: 290px;
+  padding: 15px 22px 15px 30px;
+  max-width: 290px;
   background: #f8f8f8;
   position: relative;
   top: 0px;
@@ -86,7 +87,21 @@
   background-image: url("../icons/availability/grey_calendar.svg");
   position: absolute;
   right: 15px;
-  top: 21px;
+  align-items: center;
   color: #fff;
   cursor: pointer;
+}
+
+.availability_text-area {
+  border: none;
+  outline: none;
+  background-color: #f8f8f8;
+  font: normal 400 26px/28.3px "Archivo", sans-serif;
+  font-size: 14px;
+  line-height: 15.2px;
+  color: #777;
+  padding: 15px 0 15px 30px;
+  position: relative;
+  max-width: 330px;
+  cursor: text;
 }
