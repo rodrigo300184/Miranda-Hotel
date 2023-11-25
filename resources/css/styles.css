@@ -351,9 +351,9 @@ body {
   color: #bead8e;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
   .breadcrumb {
-    right: 300px;
+    right: 375px;
   }
 }
 .room_amenities {
@@ -1115,6 +1115,12 @@ header {
   gap: 24px;
 }
 
+@media only screen and (min-width: 1000px) {
+  .banner {
+    max-width: 2000px;
+    padding-left: 372px;
+  }
+}
 .availability {
   max-width: 600px;
   margin: 70px auto 0px;
