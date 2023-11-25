@@ -113,32 +113,34 @@
       <!-- Google Map -->
       <div class="contact_google-map">
         <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48363.48103000033!2d-74.02873812906013!3d40.74623987516722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258fda88cefb3%3A0x7f1e88758d210007!2sNew%20York%20City%20Hall!5e0!3m2!1sen!2ses!4v1695151891145!5m2!1sen!2ses"
-            width="100%"
-            height="200"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48363.48103000033!2d-74.02873812906013!3d40.74623987516722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258fda88cefb3%3A0x7f1e88758d210007!2sNew%20York%20City%20Hall!5e0!3m2!1sen!2ses!4v1695151891145!5m2!1sen!2ses"
+          width="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
-    </div>
+      </div>
       <!-- Contact Form -->
-      <div class="contact_form_container">
-        <form class="contact_form" id="">
-          <input
-            class="contact_input contact_input_name"
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Your full name"
-          />
-          <input
-            class="contact_input contact_input_phone"
-            type="text"
-            name="phone"
-            id="phone"
-            placeholder="Add phone number"
-          />
+      <form class="contact_form" id="">
+        <div class="contact_form_container">
+          <div class="contact_form_container--inner">
+            <input
+              class="contact_input contact_input_name"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Your full name"
+            />
+            <input
+              class="contact_input contact_input_phone"
+              type="text"
+              name="phone"
+              id="phone"
+              placeholder="Add phone number"
+            />
+          </div>
+          <div class="contact_form_container--inner">
           <input
             class="contact_input contact_input_email"
             type="email"
@@ -153,21 +155,21 @@
             id="subject"
             placeholder="Enter subject"
           />
-          <textarea
-            class="contact_text-area"
-            name="contactMessage"
-            id="contactMessage"
-            cols="30"
-            rows="5"
-            placeholder="Enter message"
-          ></textarea>
-          <input
-            class="button button_centered button_regular button_regular--gold button_text"
-            type="submit"
-            value="SEND"
-          />
-        </form>
-      </div>
+        </div>
+        </div>
+        <textarea
+          class="contact_text-area"
+          name="contactMessage"
+          id="contactMessage"
+          
+          placeholder="Enter message"
+        ></textarea>
+        <input
+          class="button button_centered button_regular button_regular--gold button_text"
+          type="submit"
+          value="SEND"
+        />
+      </form>
     </section>
     <!-- Footer Section -->
     <section class="footer">
