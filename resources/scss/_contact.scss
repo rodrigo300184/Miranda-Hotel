@@ -1,0 +1,144 @@
+.contact {
+  padding: 48px 20px 60px;
+  max-width: 600px;
+  margin: 70px auto 0px;
+}
+.rooms-details-container {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.contact_form_container {
+  max-width: 600px;
+  background: $white;
+  margin: 49px auto 0px;
+  width: 290px;
+}
+
+.contact_form {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+}
+
+.contact_input {
+  @include avalaibility_input-text;
+  border: none;
+  padding: 15px 22px 15px 52px;
+  max-width: 290px;
+  background: #f8f8f8;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-position: 20px center;
+  &:focus {
+    outline: none;
+  }
+  &_name {
+    background-image: url("../icons/contact/friend_human.svg");
+  }
+  &_phone {
+    background-image: url("../icons/contact/phone_cell.svg");
+  }
+  &_email {
+    background-image: url("../icons/contact/email_envelope.svg");
+  }
+  &_subject {
+    background-image: url("../icons/contact/gobbler.svg");
+  }
+}
+
+.contact_text-area {
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  background-color: #f8f8f8;
+  background-image: url("../icons/contact/pen_pencil.svg");
+  background-repeat: no-repeat;
+  background-position: 20px 15px;
+  font: normal 400 26px/28.3px "Archivo", sans-serif;
+  font-size: 14px;
+  line-height: 15.2px;
+  color: $grey;
+  padding: 15px 0 15px 52px;
+  position: relative;
+  max-width: 330px;
+  cursor: text;
+}
+
+.contact_card {
+  display: flex;
+  position: relative;
+  margin: 0px auto;
+  padding: 52px 0px 52px 12px;
+  gap: 27px;
+  width: 100%;
+  height: 189px;
+  &_container{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+  }
+  
+  &_icon {
+    width: 40px;
+    height: 38px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    &--address {
+      background-image: url("../icons/contact/card_address.svg");
+    }
+    &--phone {
+      background-image: url("../icons/contact/card_phone.svg");
+    }
+    &--email {
+      background-image: url("../icons/contact/card_email.svg");
+    }
+  }
+  &_text-container {
+    z-index: 1;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    &_title {
+      color: $black;
+      font-family: $old-font;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+    }
+    &_data {
+      color: $grey;
+      font-family: $roboto-font;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      &--phone{
+        width: 136px;
+      }
+    }
+  }
+  &_big-number {
+    position: absolute;
+    text-align: right;
+    top: -6px;
+    right: 0px;
+    z-index: 0;
+    color: #f8f8f8;
+    font-family: $roboto-font;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -6px;
+  }
+}
+
+.contact_google-map{
+  margin-top: 70px;
+}

@@ -66,7 +66,7 @@
   position: absolute;
   left: 0px;
   top: 0px;
-  color: #fff;
+  color: $white;
   cursor: pointer;
 }
 
@@ -88,7 +88,7 @@
   position: absolute;
   right: 15px;
   align-items: center;
-  color: #fff;
+  color: $white;
   cursor: pointer;
 }
 
@@ -100,7 +100,7 @@
   font: normal 400 26px/28.3px "Archivo", sans-serif;
   font-size: 14px;
   line-height: 15.2px;
-  color: #777;
+  color: $grey;
   padding: 15px 0 15px 30px;
   position: relative;
   max-width: 330px;
