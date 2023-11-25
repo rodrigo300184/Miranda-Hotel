@@ -64,6 +64,7 @@
 .availability_input[type="date"]::-webkit-calendar-picker-indicator {
   background-image: url("../icons/availability/calendar.svg");
   position: absolute;
+  width: 100%;
   left: 0px;
   top: 0px;
   color: $white;
@@ -105,4 +106,32 @@
   position: relative;
   max-width: 330px;
   cursor: text;
+}
+
+@media only screen and (min-width: 1000px) {
+  .availability {
+    max-width: 2000px;
+    padding: 37px 0px 40px 372px;
+    &--white {
+      background: $white;
+      margin: 49px auto 0px;
+      width: 290px;
+    }
+  }
+  .availability_form {
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    &_rdetails {
+      flex-direction: column;
+      align-items: normal;
+    }
+  }
+  .availability_item {
+    width: 330px;
+    margin: 0px;
+    &_left-margin {
+      margin-right: 12%;
+    }
+  }
 }
