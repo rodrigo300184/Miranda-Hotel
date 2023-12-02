@@ -105,3 +105,10 @@
 .room_image{
   width: 335px;
 }
+
+@media only screen and (min-width:1000px) {
+  .room-container {
+    width: 690px;
+  }
+  
+}
